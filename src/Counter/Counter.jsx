@@ -22,7 +22,7 @@ export class Counter extends React.Component {
         return (
             <div>
                 <h1>Counter App</h1>
-                <p>Count:{this.state.count}</p>
+                <p>Count: {this.state.count}</p>
                 <button onClick={this.handleIncrement}>Increment</button>
                 <button onClick={this.handleDecrement}>Decrement</button>
             </div>
